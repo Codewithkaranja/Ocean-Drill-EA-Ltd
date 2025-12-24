@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Oceandrill (EA) Ltd. | Ground Water Experts</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <img src="ocean drill (EA) ltd logo.png" alt="Oceandrill(EA) Ltd. Logo" class="logo-img" />
+          <!-- Logo Provision -->
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="solar.html">Solar Solutions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+         <!--  <a href="contact" class="btn btn-primary">Get Quote</a> -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Oceandrill (EA) Ltd.</h1>
+        <p>
+          Connect with Kenya’s groundwater experts – drilling, pumps, water
+          systems
+        </p>
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="section-padding contact-methods">
+      <div class="container">
+        <div class="text-center">
+          <h2>Talk To Us</h2>
+          <p>Choose the contact method that works best for you</p>
+        </div>
+
+        <div class="methods-grid">
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Call Us</h3>
+            <div class="method-details">
+              <p>Speak directly with our water experts</p>
+              <p><strong>0708 140284</strong></p>
+            </div>
+            <a href="tel:+254708140284" class="btn btn-primary">Call Now</a>
+          </div>
+
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>WhatsApp</h3>
+            <div class="method-details">
+              <p>Quick responses via WhatsApp</p>
+              <p><strong>0708 140284</strong></p>
+            </div>
+            <a
+              href="https://wa.me/254708140284"
+              class="btn btn-primary"
+              target="_blank"
+              >Message Us</a
+            >
+          </div>
+
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Us</h3>
+            <div class="method-details">
+              <p>Send detailed project inquiries</p>
+              <p><strong>drillsolltd@gmail.com</strong></p>
+            </div>
+            <a href="mailto:drillsolltd@gmail.com" class="btn btn-primary"
+              >Send Email</a
+            >
+          </div>
+
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Visit Our Office</h3>
+            <div class="method-details">
+              <p>Come see us in Machakos Town</p>
+              <p><strong>Asante House, Opp. Susu Center</strong></p>
+            </div>
+            <a
+              href="https://maps.app.goo.gl/vT5LQraa6hMVT5xx9"
+              class="btn btn-primary"
+              >Get Directions</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form & Info -->
+    <section class="contact-main">
+      <div class="container">
+        <div class="contact-container">
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <h2>Send Us a Message</h2>
+            <p>
+              Fill out the form below and our team will get back to you within
+              24 hours
+            </p>
+
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" class="form-control" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service Needed</label>
+                <select id="service" class="form-control">
+                  <option value="">Select a Service</option>
+                  <option value="drilling">Borehole Drilling</option>
+                  <option value="solar">Solar Pump Installation</option>
+                  <option value="survey">Hydrogeological Survey</option>
+                  <option value="rehabilitation">
+                    Borehole Rehabilitation
+                  </option>
+                  <option value="irrigation">Irrigation System</option>
+                  <option value="other">Other Service</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="location">Project Location</label>
+                <input
+                  type="text"
+                  id="location"
+                  class="form-control"
+                  placeholder="County, Town, or Area"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Project Details *</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  placeholder="Please describe your water needs, project scope, and any specific requirements..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="contact-info-container">
+            <h2>Contact Information</h2>
+            <p>Here's how you can reach us directly</p>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Our Office</h3>
+                <p>
+                  <a href="https://maps.app.goo.gl/RHE9FLjYr2rm3DyG7">
+                    Godown No. C3, Dul Dul Business Park, Opposite Signature Mall
+                    <br />Mlolongo, Nairobi, Kenya</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Phone Numbers</h3>
+
+                <p>
+                  Office: <a href="tel:+254708140284">0708 140284</a
+                  ><br />Emergency: <a href="tel:+254794681018">0794 681018</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h3>Email Address</h3>
+                <a href="mailto:info@oceandrill.co.ke"
+                  ><p>info@oceandrill.co.ke<br />quotes@oceandrill.co.ke</p></a
+                >
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="info-content">
+                <h3>Business Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                <p>Sunday: Closed</p>
+                <div class="business-hours">
+                  <div class="hours-item">
+                    <span>Emergency Services:</span>
+                    <span>24/7 Available</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <div class="info-content">
+                <h3>Quick Response</h3>
+                <p>
+                  We typically respond to inquiries within 2 hours during
+                  business hours
+                </p>
+                <p>For urgent matters, please call us directly</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="location">
+      <div class="container">
+        <div class="text-center">
+          <h2>Our Location</h2>
+          <p>
+            Visit our office in Mlolongo Town for consultations and project
+            discussions
+          </p>
+        </div>
+
+        <div class="map-container">
+          <div class="map-placeholder">
+            <div>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7977.185493747816!2d36.949816000000006!3d-1.420175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f75d05f243d5d%3A0x430a2d1e2c68ccb6!2sOcean%20Drill%20EA%20Ltd!5e0!3m2!1sen!2ske!4v1766547254914!5m2!1sen!2ske" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding faq-section">
+      <div class="container">
+        <div class="text-center">
+          <h2>Frequently Asked Questions</h2>
+          <p>Quick answers to common questions about contacting us</p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <span
+                >What information should I provide when contacting you?</span
+              >
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                For the most accurate response, please provide: your location
+                (county and specific area), the type of water need (domestic,
+                agricultural, commercial), preferred service (drilling, pump
+                installation, etc.), and any specific challenges you're facing.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>How quickly can you respond to my inquiry?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We typically respond to phone calls and WhatsApp messages
+                immediately during business hours. Email inquiries are answered
+                within 2-4 hours. For urgent water emergencies, we provide 24/7
+                emergency response services.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Do you offer free consultations or site visits?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, we offer free initial consultations either at our office,
+                by phone, or through virtual meetings. For site visits within
+                Machakos,Kajiado and Nairobi Counties, we provide free preliminary assessments. For
+                locations further away, we may charge a modest travel fee that
+                can be deducted from your project cost if you proceed.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>What areas in Kenya do you serve?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We serve clients throughout Kenya with our main operations in
+                Machakos County and surrounding areas. We have completed
+                projects in Nairobi, Kajiado, Makueni, Kitui, and beyond.
+                Distance doesn't limit our ability to serve you - contact us to
+                discuss your specific location.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Can I get a rough estimate before the site visit?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, we can provide preliminary estimates based on your
+                location, water needs, and project scope. However, accurate
+                pricing requires a site assessment to evaluate ground
+                conditions, water table depth, and other local factors that
+                affect project complexity and cost.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Solve Your Water Challenges?</h2>
+        <p>
+          Contact our team of groundwater experts today for a free consultation
+        </p>
+        <div class="cta-btns">
+          <div>
+            <a href="tel:+254708140284" class="method-icon"
+              ><i class="fas fa-phone-alt"></i
+            ></a>
+          </div>
+          <div>
+            <a
+              href="https://wa.me/254708140284"
+              class="method-icon"
+              id="whatsapp"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Oceandrill (EA) Ltd.</h3>
+            <p>
+              Ground Water Experts providing professional borehole drilling,
+              pump installation, and water system solutions across Kenya.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/Oceandrill/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://vm.tiktok.com/ZMHTUSDLQ7pFL-57uSn/"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+              <a href="https://x.com/Oceandrill?t=EiIhygy1WXQcSJvb1-KSew&s=09"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/Oceandrill?igsh=MTMxNmhudDdmbWhkcg=="
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://youtube.com/@Oceandrillealtd?si=zS5odvAVRlcjGPFV"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Our Services</h3>
+            <ul>
+              <li><a href="projects.html">Borehole Drilling</a></li>
+              <li><a href="solar.html">Solar Pump Installation</a></li>
+              <li><a href="services.html">Borehole Rehabilitation</a></li>
+              <li><a href="services.html">Irrigation Systems</a></li>
+              <li><a href="services.html">Hydrogeological Surveys</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="solar.html">Solar Solutions</a></li>
+              <li><a href="about.html">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <ul class="contact-info">
+              <li>
+                <i class="fas fa-map-marker-alt"></i
+                >  <a href="https://maps.app.goo.gl/RHE9FLjYr2rm3DyG7">
+                    Godown No. C3, Dul Dul Business Park, 
+                    <br />Mlolongo, Nairobi, Kenya</a
+                  >
+              </li>
+              <li>
+                <i class="fas fa-phone"></i
+                ><a href="tel:+254708140284"> <span>0708 140284</span></a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i
+                ><a href="mailto:info@oceandrill.co.ke">
+                  <span>info@oceandrill.co.ke</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Oceandrill (EA) Ltd. All Rights Reserved.</p>
+          <p style="margin: 0; font-size: 13px; color: #777">
+            Crafted with <span style="color: red">❤</span> by
+            <a
+              href="https://sarahadevelopers.co.ke"
+              target="_blank"
+              rel="noopener"
+              style="color: orange; text-decoration: none; font-weight: 500"
+            >
+              Saraha Developers Ltd.
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Widget 
+    <div class="whatsapp-widget">
+      <a href="https://wa.me/254708140284" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>-->
+    <!-- Sticky Quote Button -->
+    <a href="https://wa.me/254708140284" class="sticky-quote">
+      <i class="fab fa-whatsapp"></i> Request Quote
+    </a>
+    <script src="contact.js"></script>
+  </body>
+</html>
