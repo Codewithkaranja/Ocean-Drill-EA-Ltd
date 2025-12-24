@@ -276,7 +276,7 @@ header.header-small:not(.header-transparent) .logo-img {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("WhatsApp\ Image\ 2025-11-27\ at\ 20.12.18_d3f0f74b.jpg");
+    url("Ocean\ Drill\ 1.png");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -526,7 +526,7 @@ header.header-small:not(.header-transparent) .logo-img {
       .mission-vision {
         padding: 5rem 0;
         background: linear-gradient(rgba(238, 239, 240, 0.925), rgba(248, 249, 250, 0.568)),
-          url("WhatsApp\ Image\ 2025-11-27\ at\ 20.12.18_d3f0f74b.jpg");
+          url("Ocean\ Drill\ Homepage.png");
         background-size: cover;
         background-position: center;
       }
@@ -605,7 +605,7 @@ header.header-small:not(.header-transparent) .logo-img {
       .team-section {
         padding: 5rem 0;
          background: linear-gradient(rgba(27, 28, 29, 0.925), rgba(83, 84, 85, 0.568)),
-          url("WhatsApp\ Image\ 2025-11-27\ at\ 20.12.18_d3f0f74b.jpg");
+          url("Ocean\ Drill\ 1.png");
         background-size: cover;
         background-position: center;
       }

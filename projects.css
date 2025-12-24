@@ -31,7 +31,7 @@
       rgba(238, 239, 240, 0.9), 
       rgba(248, 249, 250, 0.9)
     ),
-    url("WhatsApp\ Image\ 2025-11-27\ at\ 20.12.18_d3f0f74b.jpg") no-repeat center center;
+    url("Ocean\ Drill\ Field\ Work.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
       }
@@ -277,7 +277,7 @@ header.header-small:not(.header-transparent) .logo-img {
   position: relative;
   height: 70vh;
   background: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.247)),
-              url("drilsol\ lorry1.png");
+              url("Ocean\ Drill\ Homepage.png");
   background-size: cover;
   background-position: center;
   color: #fff;

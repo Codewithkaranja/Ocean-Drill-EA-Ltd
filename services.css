@@ -29,7 +29,7 @@
         color: var(--slate-gray);
         background-color: var(--white);
         background: linear-gradient(rgba(238, 239, 240, 0.829), rgba(248, 249, 250, 0.788)),
-    url("WhatsApp Image 2025-11-27 at 20.12.18_d3f0f74b.jpg");
+    url("Ocean\ Drill\ launchc.png");
   background-size: cover;
   background-position: center;
       }
@@ -370,7 +370,7 @@ header.header-small:not(.header-transparent) .logo-img {
   justify-content: center;
   align-items: center;
   background: linear-gradient(rgba(0, 21, 36, 0.55), rgba(0, 21, 36, 0.85)),
-              url("Drilsol-No-More-Water-Scarcity.jpg") center/cover no-repeat;
+              url("Ocean\ Drill\ 1.png") center/cover no-repeat;
   overflow: hidden;
   opacity: 0;
   transform: translateY(-40px);
@@ -461,7 +461,7 @@ header.header-small:not(.header-transparent) .logo-img {
       /* Services Overview */
       .services-overview {
         background: linear-gradient(rgba(238, 239, 240, 0.918), rgba(248, 249, 250, 0.788)),
-    url("WhatsApp Image 2025-11-27 at 20.12.18_d3f0f74b.jpg");
+    url("Ocean\ Drill\ Rig3.png");
   background-size: cover;
   background-position: center;
       }
@@ -705,7 +705,7 @@ header.header-small:not(.header-transparent) .logo-img {
       /* FAQ Section */
       .faq-section {
         background: linear-gradient(rgba(238, 239, 240, 0.966), rgba(248, 249, 250, 0.788)),
-    url("WhatsApp Image 2025-11-27 at 20.12.18_d3f0f74b.jpg");
+    url("Ocean\ Drill\ Homepage.png");
   background-size: cover;
   background-position: center;
       }
