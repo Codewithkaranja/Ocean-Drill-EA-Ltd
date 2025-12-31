@@ -160,7 +160,7 @@ header {
   width: 100%;
   padding: 0;
   background-color: transparent;
-  box-shadow: var(--shadow);
+  
   z-index: 1000;
   transition: background-color 0.35s ease, 
               padding 0.35s ease, 

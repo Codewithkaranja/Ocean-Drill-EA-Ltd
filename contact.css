@@ -163,7 +163,7 @@ header {
   width: 100%;
   padding:  0;
   background-color: transparent;
-  box-shadow: var(--shadow);
+  
   z-index: 1000;
   transition: background-color 0.35s ease, 
               padding 0.35s ease, 
@@ -288,7 +288,7 @@ header.header-small:not(.header-transparent) .logo-img {
       /* Enhanced Premium Page Header */
 .page-header {
   position: relative;
-  margin-top: 80px;
+  margin-top: 0px;
   height: 75vh;
   padding: 10rem 0 6rem;
   text-align: center;
