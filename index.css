@@ -29,11 +29,17 @@ html {
 }
 
 body {
-  font-family: "Jost", sans-serif;
-  line-height: 1.6;
-  color: var(--slate-gray);
-  background-color: var(--white);
-}
+        font-family: "Jost", sans-serif;
+        line-height: 1.6;
+        color: var(--slate-gray);
+        background: linear-gradient(
+      rgba(238, 239, 240, 0.384), 
+      rgba(248, 249, 250, 0.6)
+    ),
+    url("Ocean\ Drill\ Field\ Work.webp") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+      }
 
 h1, h2, h3, h4 {
   color: var(--charcoal-black);
@@ -423,7 +429,7 @@ header.header-small:not(.header-transparent) .logo-img {
 
 /* Services Overview - Fixed image URL */
 .services-overview {
-  background: linear-gradient(rgba(238, 239, 240, 0.9), rgba(248, 249, 250, 0.9)),
+  background: linear-gradient(rgba(238, 239, 240, 0.881), rgba(248, 249, 250, 0.539)),
     url("WhatsApp\ Image\ 2025-11-27\ at\ 20.12.18_d3f0f74b.jpg");
   background-size: cover;
   background-position: center;
@@ -547,7 +553,7 @@ header.header-small:not(.header-transparent) .logo-img {
 /* ================== Projects Section ================== */
 #projects {
   padding: 6rem 0;
-  background: linear-gradient(rgba(45, 48, 51, 0.836), rgba(248, 249, 250, 0.952)),
+  background: linear-gradient(rgba(45, 48, 51, 0.945), rgba(248, 249, 250, 0.562)),
     url("Drisol\ lorry2.png");
   background-size: cover;
   background-position: center;
