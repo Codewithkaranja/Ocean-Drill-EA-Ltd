@@ -28,7 +28,7 @@
         line-height: 1.6;
         color: var(--slate-gray);
         background-color: var(--white);
-        background: linear-gradient(rgba(238, 239, 240, 0.829), rgba(248, 249, 250, 0.788)),
+        background: linear-gradient(rgba(238, 239, 240, 0.829), rgba(208, 210, 211, 0.788)),
     url("Ocean\ Drill\ Homepage.webp");
   background-size: cover;
   background-position: center;

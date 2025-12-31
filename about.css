@@ -27,7 +27,13 @@
         font-family: "Jost", sans-serif;
         line-height: 1.6;
         color: var(--slate-gray);
-        background-color: var(--white);
+        background: linear-gradient(
+      rgba(238, 239, 240, 0.596), 
+      rgba(248, 249, 250, 0.566)
+    ),
+    url("Ocean\ Drill\ Field\ Work.webp") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
       }
 
       h1,
